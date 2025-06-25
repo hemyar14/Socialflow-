@@ -1,0 +1,12 @@
+/pages
+  /auth
+    index.jsx       ← “Sign in” page
+    callback.jsx    ← OAuth callback handler
+  /dashboard.jsx    ← Protected dashboard
+  /index.jsx        ← Landing / redirect to /auth
+/_app.js            ← wrap Auth & Toast providers
+/utils
+  supabaseClient.js
+/contexts
+  AuthContext.js
+  ToastContext.js
